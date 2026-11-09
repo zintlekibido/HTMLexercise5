@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  padding-top: 60px; /* Space for the fixed navigation bar */
+  background-color: #f9f9f9;
+}
+
+/* Navigation Bar Styling */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  padding: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  z-index: 1000;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main Heading & Layout Styling */
+main {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+h1 {
+  color: #2c3e50;
+  font-size: 24px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+h2 {
+  color: #2c3e50;
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+/* Blog Post Styling */
+.blog-post {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.blog-post p {
+  color: #444;
+  line-height: 1.6;
+}
+
+/* General Link Styling (if added inside posts) */
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
